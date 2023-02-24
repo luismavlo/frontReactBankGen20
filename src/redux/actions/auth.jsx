@@ -84,6 +84,7 @@ export const startChecking = () => {
         getConfig()
       )
       .then((resp) => {
+        console.log('LEEME! 🙌', resp)
         localStorage.setItem("token", resp.data.token);
         dispatch(
           login({

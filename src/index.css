@@ -408,3 +408,23 @@ background: linear-gradient(158deg, rgba(252,75,84,1) 0%, rgba(243,59,84,1) 49%,
   background-color: rgb(252, 101, 108);
   outline: none;
 }
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid black;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
