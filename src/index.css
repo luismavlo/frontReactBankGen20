@@ -409,6 +409,22 @@ background: linear-gradient(158deg, rgba(252,75,84,1) 0%, rgba(243,59,84,1) 49%,
   outline: none;
 }
 
+.content-loader{
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    width: 100%;
+    height: 100vh;
+}
+
 .loader {
   width: 48px;
   height: 48px;

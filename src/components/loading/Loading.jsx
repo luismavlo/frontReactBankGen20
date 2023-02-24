@@ -2,6 +2,8 @@ import React from "react";
 
 export const Loading = () => {
   return (
-    <span class="loader"></span>
+    <div className="content-loader">
+      <span class="loader"></span>
+    </div>
   );
 };
